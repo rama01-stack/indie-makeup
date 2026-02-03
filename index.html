@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Indie MakeUP - Creative and inclusive makeup studio based in Milan.">
+    <title>Indie MakeUP - Creative Makeup Studio</title>
+
+    <!--LINKING FONT AWESOM FOR ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!--LINKING SWIPERCSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER/NAVBAR-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Indie MakeUP</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#staff" class="nav-link">Staff</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                <li class="nav-items">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <!--HERO SECTION-->
+       <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Bold. Bright.<br>Beautiful.</h2>
+                <h3 class="subtitle">Where Beauty Meets Art.</h3>
+                <p class="description">Explore bold colors, modern trends,<br>and makeup that lets your true style shine.</p>
+
+                <div class="buttons">
+                    <a href="#contact" class="button contact-us">CONTACT US</a>
+                    <a href="#gallery" class="button products">OUR WORK</a>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!--ABOUT SECTION-->
+       <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="foto-about.png" alt="About" class="about-image">
+                </div>
+
+                <div class="about-details">
+                <h2 class="section-title">About Us</h2>
+                <p class="text">Indie MakeUP is an inclusive, eco-conscious makeup studio created to celebrate every face and every shade.
+                We believe beauty is a form of self-expression, not a standard to fit into.
+                Our mission is to offer makeup that is kind to your skin and gentle on the planet, using cruelty-free and sustainable products whenever possible.
+                From everyday looks to special occasions, we create personalized styles for all genders, skin tones, and identities.
+                At Indie MakeUP, beauty means confidence, creativity, and care — for you and for the world around you.</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            </div>
+       </section>
+
+       <!--STAFF SECTION-->
+       <section class="staff-section" id="staff">
+        <h2 class="section-title">Our Staff</h2>
+        <div class="section-content">
+            <ul class="staff-list">
+                <li class="person">
+                    <img src="staff-1.png" alt="Nicole" class="person-photo">
+                    <h3 class="name">Nicole</h3>
+                    <p class="text">Neon Sorceress: bold eyes and lips that refuse to be ignored</p>
+                </li>
+                <li class="person">
+                    <img src="staff-2.png" alt="Alex" class="person-photo">
+                    <h3 class="name">Alex</h3>
+                    <p class="text">Bold & Bright: makeup with a personality as loud as theirs.</p>
+                </li>
+                <li class="person">
+                    <img src="staff-3.png" alt="Kai" class="person-photo">
+                    <h3 class="name">Kai</h3>
+                    <p class="text">Color Alchemist: mixes impossible shades and turns them into skin magic.</p>
+                </li>
+                <li class="person">
+                    <img src="staff-4.png" alt="Agata" class="person-photo">
+                    <h3 class="name">Agata</h3>
+                    <p class="text">Glow Queen: makes neon look natural.</p>
+                </li>
+                <li class="person">
+                    <img src="staff-5.png" alt="Leo" class="person-photo">
+                    <h3 class="name">Leo</h3>
+                    <p class="text">Sparkle Specialist: every look feels out-of-this-world.</p>
+                </li>
+                <li class="person">
+                    <img src="staff-6.png" alt="Cloe" class="person-photo">
+                    <h3 class="name">Cloe</h3>
+                    <p class="text">Pastel Rebel: soft shades on the outside, pure audacity underneath.</p>
+                </li>
+            </ul>
+        </div>
+       </section>
+
+       <!--TESTIMNIALS SECTION-->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial swiper-slide">
+                            <img src="testimonial-1.png" alt="User" class="user-image">
+                            <h3 class="name">Li Mei Zhang</h3>
+                            <i class="feedback">Indie MakeUp created the perfect look for my Graduation Day: artistic, elegant, and totally me. I felt confident and beautiful all day long!</i>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <img src="testimonial-2.png" alt="User" class="user-image">
+                            <h3 class="name">The Velvet Echo Theatre Company</h3>
+                            <i class="feedback">Indie MakeUp brings our characters to life with bold, imaginative stage makeup. Their creativity is essential to our performances.</i>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <img src="testimonial-3.png" alt="User" class="user-image">
+                            <h3 class="name">Margaret “Maggie” Bloom</h3>
+                            <i class="feedback">At 70, I wanted a daring birthday look—and Indie MakeUp delivered! They celebrated my personality and made me feel like a glamorous rebel.</i>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <img src="testimonial-4.png" alt="User" class="user-image">
+                            <h3 class="name">Ethan Coen</h3>
+                            <i class="feedback">They gave me a cool, confident Prom look that matched my style perfectly. Fun experience and amazing results!</i>
+                        </div>
+                        <div class="testimonial swiper-slide">
+                            <img src="testimonial-5.png" alt="User" class="user-image">
+                            <h3 class="name">Neon</h3>
+                            <i class="feedback">Indie MakeUp created edgy, striking looks for our first single cover. The makeup captured our vibe perfectly.</i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--GALLERY SECTION-->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="gallery-1.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-2.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-3.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-4.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-5.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-6.png" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p> Via dei Colori 15, Navigli District, Milan</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>IndieMakeUP@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>380 803083</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 10:00 - 17:00</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday : Appointments only</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed </p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.indiemakeup.it</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required >
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!--FOOTER SECTION-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2026 Indie MakeUP Nicole</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+
+            </div>
+        </footer>
+    </main>
+
+    <!--LINKING SWIPER SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+ <!--LINKING CUSTOM SCRIPT-->
+    <script src="script.js"></script>
+</body>
+</html>
